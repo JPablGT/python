@@ -12,12 +12,15 @@ def run_game():
 
     ship = Ship(screen)
 
-
     while True:
         gf.check_events() 
         pygame.display.flip()
         gf.update_screen(ai_settings, screen, ship)
         screen.fill(ai_settings.bg_color)
         ship.blitme()
+<<<<<<< HEAD
         
+=======
+               
+>>>>>>> ff8e34192615834c02effdd557d21e5b285233c7
 run_game()
