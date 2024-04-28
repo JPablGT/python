@@ -18,5 +18,5 @@ def run_game():
         gf.update_screen(ai_settings, screen, ship)
         screen.fill(ai_settings.bg_color)
         ship.blitme()
-               
+    
 run_game()
