@@ -7,7 +7,7 @@ def run_game():
     pygame.init()
     ai_settings = Settings()
     screen = pygame.display.set_mode(
-    (ai_settings.screen_width, ai_settings.screen_height))  
+    (ai_settings.screen_width, ai_settings.screen_height))
     pygame.display.set_caption("Alien Invasion")
 
     ship = Ship(screen)
@@ -18,5 +18,13 @@ def run_game():
         gf.update_screen(ai_settings, screen, ship)
         screen.fill(ai_settings.bg_color)
         ship.blitme()
+<<<<<<< HEAD
     
+=======
+<<<<<<< HEAD
+        
+=======
+               
+>>>>>>> ff8e34192615834c02effdd557d21e5b285233c7
+>>>>>>> cd442d0bb657db6a4bed0a398581079fd18dd72a
 run_game()
