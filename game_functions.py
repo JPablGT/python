@@ -42,6 +42,4 @@ def update_bullets(bullets):
         if bullet.rect.bottom <= 0:
             bullets.remove(bullet)
     print(len(bullets))
-# Make the most recently drawn screen visible.
-
-
+# Make the most recently drawn screen visibl
