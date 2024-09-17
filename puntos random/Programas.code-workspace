@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "Programas",
+			"path": "../.."
+		},
+		{
+			"name": "bienensoft",
+			"path": "../../BienenSoft/bienensoft"
+		},
+		{
+			"name": "python-2",
+			"path": ".."
+		},
+		{
+			"path": "../../../../../../../wamp64/www/tienda_virtual"
+		},
+		{
+			"path": "../../../../../../../wamp64/www/RH"
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}
